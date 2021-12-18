@@ -23,7 +23,6 @@ describe('processors', () => {
       id: 4,
       name: 'Word 4'
     },
-   
     {
       id: 1,
       name: 'Word 1'
@@ -38,7 +37,7 @@ describe('processors', () => {
     }
    ]
 
-  const dedupedItems = [ 
+  const dedupedItems = [
     {
       id: 1,
       name: 'Word 1'
@@ -57,7 +56,7 @@ describe('processors', () => {
     }
   ]
 
-  const sortedAscending = [ 
+  const sortedAscending = [
     {
       id: 1,
       name: 'Word 1'
